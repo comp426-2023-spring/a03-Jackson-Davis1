@@ -40,6 +40,7 @@ let shot = args._[0]
 try {
   console.log(JSON.stringify(rpsls(shot))); 
 } catch (e) {
+  console.log(e);
   console.log(`Rules for the Lizard-Spock Expansion of Rock Paper Scissors:
   - Scissors CUTS Paper
   - Paper COVERS Rock
