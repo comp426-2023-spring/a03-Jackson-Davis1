@@ -5,10 +5,7 @@
   "main": "./lib/rpsls.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "rpsls": "node ./bin/rpsls-cli.js",
-    "rps": "node ./bin/rps-cli.js",
-    "main": "node ./lib/rpsls.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -22,5 +19,9 @@
   "homepage": "https://github.com/comp426-2023-spring/a03-Jackson-Davis1#readme",
   "dependencies": {
     "minimist": "^1.2.8"
+  },
+  "bin": {
+    "node-rps": "./bin/rps-cli.js",
+    "node-rpsls": "rpsls-cli.js"
   }
 }
