@@ -6,3 +6,6 @@ const argv = minimist(process.argv.slice(2));
 
 
 console.log(argv);
+const playableOptions = ["rock", "paper", "scissors", "lizard", "spock"]
+let opponentShot = playableOptions[Math.floor(Math.random()*3)]
+console.log(opponentShot);

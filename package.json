@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "rpsls": "node ./bin/rpsls-cli.js",
-    "rps": "node ./bin/rps-cli.js"
+    "rps": "node ./bin/rps-cli.js",
+    "main": "node ./lib/rpsls.js"
   },
   "repository": {
     "type": "git",
